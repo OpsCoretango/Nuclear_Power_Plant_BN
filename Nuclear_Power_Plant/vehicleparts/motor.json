@@ -1,0 +1,29 @@
+[
+  {
+    "id": "engine_electric_train",
+    "copy-from": "engine_motor",
+    "type": "vehicle_part",
+    "name": { "str": "1,300 HP electric train engine" },
+    "description": "An enormous and heavy electric traction motor, powerful enough to pull a train.",
+    "item": "motor_train1300",
+    "durability": 500,
+    "power": 1000000,
+    "energy_consumption": 1050000,
+    "damage_modifier": 80,
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 8 ] ], "time": "60 m", "using": [ [ "vehicle_bolt", 1 ] ] },
+      "removal": { "skills": [ [ "mechanics", 5 ] ], "time": "30 m", "using": [ [ "vehicle_bolt", 1 ] ] },
+      "repair": { "skills": [ [ "mechanics", 6 ] ], "time": "60 m", "using": [ [ "welding_standard", 5 ] ] }
+    },
+    "breaks_into": [
+      { "item": "steel_lump", "count": [ 60, 80 ] },
+      { "item": "steel_chunk", "count": [ 24, 40 ] },
+      { "item": "scrap", "count": [ 24, 40 ] },
+      { "item": "e_scrap", "count": [ 20, 60 ] },
+      { "item": "bearing", "charges": [ 100, 240 ] },
+      { "item": "cable", "charges": [ 80, 120 ] }
+    ],
+    "extend": { "flags": [ "E_NO_POWER_DECAY" ] },
+    "damage_reduction": { "all": 60 }
+  }
+]

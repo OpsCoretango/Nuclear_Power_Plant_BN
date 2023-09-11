@@ -6,24 +6,22 @@
     "default": "mon_null",
     "monsters": [
       { "monster": "mon_bat", "freq": 600, "cost_multiplier": 5, "pack_size": [ 6, 32 ] },
-      { "monster": "mon_mutant_experimental", "freq": 25, "cost_multiplier": 3 },
+      { "monster": "mon_mutant_experimental", "freq": 5, "cost_multiplier": 2 },
       { "monster": "mon_nakedmolerat_giant", "freq": 100, "cost_multiplier": 3 },
-      { "monster": "mon_mole_cricket", "freq": 60, "cost_multiplier": 3 },
-      { "monster": "mon_woodlouse", "freq": 60, "cost_multiplier": 3, "pack_size": [ 2, 4 ] },
-      { "monster": "mon_stag_beetle_larva", "freq": 40, "cost_multiplier": 5 },
-      { "monster": "mon_centipede_giant", "freq": 200, "cost_multiplier": 0 },
-      { "monster": "mon_sewer_snake", "freq": 100, "cost_multiplier": 0 },
-      { "monster": "mon_sewer_rat", "freq": 50, "cost_multiplier": 0, "pack_size": [ 3, 12 ] },
+      { "monster": "mon_zolf", "freq": 60, "cost_multiplier": 3, "pack_size": [ 2, 4 ] },
+      { "monster": "mon_bear_armored", "freq": 40, "cost_multiplier": 9 },
+      { "monster": "mon_centipede_giant", "freq": 120, "cost_multiplier": 1 },
+      { "monster": "mon_sewer_snake", "freq": 100, "cost_multiplier": 2 },
+      { "monster": "mon_sewer_rat", "freq": 50, "cost_multiplier": 1, "pack_size": [ 3, 12 ] },
       { "monster": "mon_gator", "freq": 25, "cost_multiplier": 2 },
-      { "monster": "mon_frog", "freq": 100, "cost_multiplier": 0 },
-      { "monster": "mon_frog_small", "freq": 100, "cost_multiplier": 0 },
-      { "monster": "mon_slug_small", "freq": 50, "ends": 168, "cost_multiplier": 0 },
-      { "monster": "mon_sludge_crawler", "freq": 25, "cost_multiplier": 0 },
+      { "monster": "mon_frog", "freq": 100, "cost_multiplier": 1 },
+      { "monster": "mon_zombie_dog", "freq": 250, "cost_multiplier": 0, "pack_size": [ 2, 4 ] },
+      { "monster": "mon_dog_skeleton", "freq": 25, "cost_multiplier": 0, "pack_size": [ 2, 4 ] },
       { "monster": "mon_zombie_mancroc", "freq": 100, "starts": 1440, "cost_multiplier": 0 },
-      { "monster": "mon_toad", "freq": 100, "cost_multiplier": 0 },
-      { "monster": "mon_toad_small", "freq": 100, "cost_multiplier": 0 },
-      { "monster": "mon_gastro_bufo", "freq": 5, "cost_multiplier": 3, "starts": 1440 },
-      { "monster": "mon_zombullfrog", "freq": 10, "cost_multiplier": 2 }
+      { "monster": "mon_zombeaver", "freq": 100, "cost_multiplier": 0 },
+      { "monster": "mon_zombie_pig", "freq": 100, "cost_multiplier": 0, "pack_size": [ 3, 12 ] },
+      { "monster": "mon_dog_zombie_rot", "freq": 5, "cost_multiplier": 3 },
+      { "monster": "mon_zougar", "freq": 10, "cost_multiplier": 4 }
     ]
   },
   {
@@ -31,10 +29,16 @@
     "type": "monstergroup",
     "default": "mon_zombie_soldier",
     "monsters": [
-      { "monster": "mon_zombie_soldier", "freq": 250, "cost_multiplier": 2, "pack_size": [ 3, 8 ] },
-      { "monster": "mon_zombie_bio_op", "freq": 350, "cost_multiplier": 2 },
-      { "monster": "mon_zombie_armored", "freq": 610, "cost_multiplier": 2, "pack_size": [ 1, 4 ] },
-      { "monster": "mon_zombie_soldier_blackops_1", "freq": 15, "cost_multiplier": 16, "pack_size": [ 2, 6 ] }
+      { "monster": "mon_zombie_soldier", "freq": 250, "cost_multiplier": 2, "pack_size": [ 3, 6 ] },
+      { "monster": "mon_zombie_soldier_acid_1", "freq": 100, "cost_multiplier": 2 },
+      { "monster": "mon_zombie_bio_op", "freq": 50, "cost_multiplier": 5 },
+      { "monster": "mon_zombie_bio_op2", "freq": 25, "cost_multiplier": 5, "starts": 1440 },
+      { "monster": "mon_zombie_armored", "freq": 10, "cost_multiplier": 3, "pack_size": [ 2, 4 ] },
+      { "monster": "mon_feral_soldier", "freq": 25, "cost_multiplier": 1 },
+      { "monster": "mon_zombie_military_pilot", "freq": 5, "cost_multiplier": 1 },
+      { "monster": "mon_zombie_soldier_blackops_1", "freq": 80, "cost_multiplier": 2, "pack_size": [ 2, 4 ] },
+      { "monster": "mon_zombie_kevlar_1", "freq": 50, "cost_multiplier": 10 },
+      { "monster": "mon_zombie_kevlar_2", "freq": 5, "cost_multiplier": 3, "starts": 1440, "pack_size": [ 1, 3 ] }
     ]
   }
 ]
