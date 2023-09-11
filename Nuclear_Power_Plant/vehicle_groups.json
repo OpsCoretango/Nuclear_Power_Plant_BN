@@ -1,0 +1,7 @@
+[
+  {
+    "type": "vehicle_group",
+    "id": "train_electrical",
+    "vehicles": [ [ "train_car_passenger", 500 ], [ "train_electrical_loco1300", 2000 ] ]
+  }
+]
