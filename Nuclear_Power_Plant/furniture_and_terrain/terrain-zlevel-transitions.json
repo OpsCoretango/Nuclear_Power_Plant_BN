@@ -1,0 +1,12 @@
+[
+  {
+	"type": "terrain",
+	"id": "t_manhole",
+	"name": "manhole",
+	"description": "This is a manhole.  The heavy iron cover lies over an entrance to the underworld of hidden tunnels beneath the streets where sewage and rain water frolic freely.  Or just leads to the lower floor.",
+	"symbol": ">",
+	"color": "dark_gray",
+	"move_cost": 2,
+	"flags": ["TRANSPARENT", "GOES_DOWN", "PLACE_ITEM"]
+  }
+]

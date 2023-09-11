@@ -1,0 +1,33 @@
+[
+  {
+    "type": "terrain",
+    "id": "t_door_metal_interior_locked",
+    "copy-from": "t_door_metal_locked",
+    "//": "Same as t_door_metal_pickable, but without OPENCLOSE_INSIDE. Due the inheritance issues cannot copy from the t_door_metal_pickable, delete doesn't work with flags",
+    "symbol": "+",
+    "looks_like": "t_door_metal_pickable",
+	"color": "cyan",
+    "flags": [ "NOITEM", "REDUCE_SCENT", "CONNECT_WITH_WALL", "OPENCLOSE_INSIDE", "LOCKED", "BLOCK_WIND", "SUPPORTS_ROOF" ],
+	"examine_action": "locked_object_pickable",
+     "bash": {
+      "str_min": 80,
+      "str_max": 250,
+      "sound": "metal screeching!",
+      "sound_fail": "clang!",
+      "ter_set": "t_mdoor_frame",
+      "items": [
+        { "item": "scrap", "count": [ 12, 24 ] },
+        { "item": "steel_plate", "prob": 75 },
+        { "item": "hinge", "count": [ 1, 3 ] }
+      ]
+    },
+    "pry": {
+    "success_message": "You pry open the metal door.",
+    "fail_message": "You pry, but cannot pry open the door.",
+	"pry_quality": 4,
+	"noise": 24,
+	"difficulty": 4,
+	"new_ter_type": "t_door_metal_o"
+    }
+  }
+]

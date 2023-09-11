@@ -1,0 +1,22 @@
+[
+  {
+    "type": "material",
+    "id": "uran_cell",
+    "name": "Uranium cell",
+    "density": 19,
+    "bash_resist": 6,
+    "specific_heat_liquid": 0.82,
+    "specific_heat_solid": 0.45,
+    "latent_heat": 273,
+    "cut_resist": 6,
+    "bullet_resist": 3,
+    "acid_resist": 7,
+    "elec_resist": 5,
+    "fire_resist": 3,
+    "chip_resist": 20,
+    "dmg_adj": [ "marked", "dented", "smashed", "shattered" ],
+    "bash_dmg_verb": "dented",
+    "cut_dmg_verb": "scratched",
+    "burn_products": [ [ "scrap", 1 ] ]
+  }
+]

@@ -1,0 +1,19 @@
+[
+  {
+    "type": "monstergroup",
+    "name": "GROUP_NUCLEAR_PLANT_WORK_ZOMBIES",
+    "default": "mon_zombie_technician",
+    "monsters": [
+      { "monster": "mon_zombie_static", "freq": 5, "cost_multiplier": 4, "pack_size": [ 1, 2 ] },
+      { "monster": "mon_zombie_technician", "freq": 100, "cost_multiplier": 0 },
+      { "monster": "mon_feral_human_tool", "freq": 5, "cost_multiplier": 0 },
+      { "monster": "mon_zombie_crawler", "freq": 15, "cost_multiplier": 0 },
+      { "monster": "mon_zombie_technician", "freq": 50, "cost_multiplier": 5, "pack_size": [ 2, 4 ] },
+      { "monster": "mon_feral_human_tool", "freq": 25, "cost_multiplier": 5 },
+      { "monster": "mon_zombie_survivor", "freq": 30, "starts": 1440, "cost_multiplier": 0 },
+      { "monster": "mon_zombie_survivor_elite", "freq": 10, "starts": 1440, "cost_multiplier": 0 },
+      { "monster": "mon_zombie_hazmat", "freq": 75, "cost_multiplier": 2 },
+      { "monster": "mon_zombie_fireman", "freq": 40, "cost_multiplier": 2 }
+    ]
+  }
+]

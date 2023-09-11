@@ -1,0 +1,13 @@
+[
+  {
+    "type": "MOD_INFO",
+    "id": "NPP",
+    "name": "Nuclear Power Plant",
+    "description": "Adds a Nuclear Power Plant from DDA. Location created by author: 8streets. Done to realism as could.",
+    "category": "buildings",
+	"authors": [ "8street" ],
+    "dependencies": [ "bn" ],
+	"obsolete": false,
+	"path": ""
+  }
+]

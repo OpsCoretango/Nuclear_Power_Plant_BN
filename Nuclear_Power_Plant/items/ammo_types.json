@@ -1,0 +1,8 @@
+[
+	{
+	"type": "ammunition_type",
+	"id": "uranium",
+	"name": "uranium",
+	"default": "uran_cell"
+	}
+]
