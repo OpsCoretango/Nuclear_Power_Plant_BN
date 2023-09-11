@@ -2,7 +2,7 @@
   {
     "type": "GENERIC",
     "id": "motor_train1300",
-    "name": { "str": "1,300 HP electric train engine" },
+    "name": { "str": "electric train engine" },
     "description": "A 1,300 horsepower 3-phase 60 Hz electric engine. Used in electric powered trains developed by General Energy Corpotation.",
     "weight": "2000 kg",
     "volume": "250 L",
